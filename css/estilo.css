@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Fredoka:wght@300;500;600&display=swap');
+
+body{
+  background-color: #FFFAF0;
+  font-family: 'Fredoka', sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+  /*Barra de menu */
+.menu{
+  font-family: 'Fredoka', sans-serif;
+}
+  /*item horizontal */
+.item-menu{
+  display: inline-block;
+  padding: 10px;
+  margin-top: 30px;
+}
+  /*editar item */
+.item-menu a{
+  text-decoration: none;
+  color: #1E1E1E;
+}
+  /*cuando pasas el mouse por el item*/
+.item-menu a:hover{
+  text-decoration: none;
+  color: #FFFAF0;
+  background-color: #1E1E1E;
+  padding: 10px;
+}
+  /*anuncio de "lA HISTORIA" */
+  .anuncioHistoria{
+    background-color: #9C65CB;
+    padding: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    height: 200px;
+  }
+    /*anuncio de "lA HISTORIA" */
+  .t1{
+    position: absolute;
+    top: 60px;
+    bottom:0;
+    left:50px;
+    right:0;
+    font-size: 30px;
+    font-weight:normal;
+    width: 600px;
+
+  }
+    /*anuncio de "lA HISTORIA"*/
+  .boton {
+    position: absolute;
+    top: 170px;
+    bottom:0;
+    left:50px;
+    right:0;
+  }
+    .nombre {
+font-family: 'Damion', cursive;
+font-size: 200px;
+position: absolute;
+top: 27px;
+bottom:0;
+left:810px;
+right:0;
+color:  #1E1E1E;
+    }
+  /*Brand Personal*/
+  .BrandPersona{
+    background-color:  #1E1E1E;
+    height: 100px;
+    position:relative;
+    margin-top: 0;
+        }
+  /*Brand Personal(TITULO)*/
+  .tt1 {
+    color:  #FFFAF0;
+    position: absolute;
+    top: 10px;
+    bottom:0;
+    left:50px;
+    right:0;
+    font-size: 40px;
+}
+  .cuerpo{
+  background-color: #FFBE44;
+  height: 370px;
+
+  }
+    /*Brand Personal(¿Quién soy? ¿Qué hago?)*/
+.cp1{
+  position: absolute;
+  top: 480px;
+  bottom:0;
+  left:43px;
+  right:0;
+}
+    /*Brand Personal(¿Quién soy? ¿Qué hago?-CUERPO)*/
+.cp2{
+  position: absolute;
+  top: 520px;
+  bottom:0;
+  left:43px;
+  right:0;
+}
+/*Brand Personal(¿Qué me hace especial?)*/
+.cp3{
+  position: absolute;
+  top:580px;
+  bottom:0;
+  left:43px;
+  right:0;
+}
+/*Brand Personal(¿Qué me hace especial?-CUERPO)*/
+.cp4{
+  position: absolute;
+  top: 620px;
+  bottom:0;
+  left:43px;
+  right:0;
+}
+/*Brand Personal(Mi principio rector es...)*/
+.cp5{
+  position: absolute;
+  top:680px;
+  bottom:0;
+  left:43px;
+  right:0;
+}
+/*Brand Personal(Mi principio rector es...-CUERPO)*/
+.cp6{
+  position: absolute;
+  top: 720px;
+  bottom:0;
+  left:43px;
+  right:0;
+}
+.foto{
+background-color: #FF646A;
+width: 50%;
+height: 370px;
+
+}
+.imag{
+width: 400px;
+padding: 40px;
+
+}
+.text{
+  position: absolute;
+  top: 1120px;
+  bottom:0;
+  left:43px;
+  right:0;
+
+}
+.historia{
+  background-color:  #1E1E1E;
+  height: 100px;
+  position: absolute;
+  top: 832px;
+  bottom:0;
+  left:50%;
+  right:0;
+  color:  #FFFAF0;
+}
+.txt{
+  position: absolute;
+  top: 20px;
+  bottom:0;
+  left:20px;
+  right:0;
+  color:  #FFFAF0;
+}
+.txt2{
+  position: absolute;
+  top: 120px;
+  bottom:0;
+  left:60px;
+  right:0;
+  color:  #1E1E1E;
+  font-size: 40px;
+}
+.txt3{
+  position: absolute;
+  top: 190px;
+  bottom:0;
+  left:60px;
+  right:0;
+  color:  #1E1E1E;
+  width: 550px;
+}
+
+.mockup{
+  background-color:  #1E1E1E;
+  height: 100px;
+  position:relative;
+  margin-top: 0;
+      }
+  .ttl {
+  color:  #FFFAF0;
+  position: absolute;
+  top: 10px;
+  bottom:0;
+  left:50px;
+  right:0;
+  font-size: 40px;
+        }
+
+        .Caracteristicas{
+          background-color:  #1E1E1E;
+          height: 100px;
+          position:relative;
+          margin-top: 0;
+              }
+
+        .caract {
+          color:  #FFFAF0;
+          position: absolute;
+          top: 10px;
+          bottom:0;
+          left:50px;
+          right:0;
+          font-size: 40px;
+      }
+        .cuerp{
+        background-color: #33A574;
+        height: 350px;
+
+        }
+        .txx1{
+          position: absolute;
+        top: 1330px;
+          bottom:0;
+          left:60px;
+          right:0;
+          color:  #1E1E1E;
+          font-size: 20px;
+        }
+
+        .txx2{
+          position: absolute;
+        top: 1390px;
+          bottom:0;
+          left:60px;
+          right:0;
+          color:  #1E1E1E;
+
+        }
+
+        .creditos{
+          background-color:  #1E1E1E;
+          height: 200px;
+          position:relative;
+          margin-top: 0;
+              }
+
+        .ttt1 {
+          color:  #FFFAF0;
+          position: absolute;
+          top: 50px;
+          bottom:0;
+          left:50px;
+          right:0;
+          font-weight: normal;
+      }
+          .ttt2 {
+                color:  #FFFAF0;
+                position: absolute;
+                top: 70px;
+                bottom:0;
+                left:50px;
+                right:0;
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+                          .ttt3 {
+                            color:  #FFFAF0;
+                            position: absolute;
+                            top: 120px;
+                            bottom:0;
+                            left:50px;
+                            right:0;
+                            font-weight: lighter;
+                            font-size: 15px;
+                        }
+
+      .ttt4 {
+      color:  #FFFAF0;
+      position: absolute;
+      top: 150px;
+      bottom:0;
+      left:50px;
+      right:0;
+      }
+.hh {
+  text-align: center;
+}
